@@ -219,7 +219,7 @@ export default class IntroSection
         this.objects.add({
             base: this.resources.items.intro2Base.scene,
             collision: this.resources.items.intro2Collision.scene,
-            offset: new THREE.Vector3(0, 0.2, 0),
+            offset: new THREE.Vector3(0, 0, 0),
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             duplicated: true,
@@ -229,7 +229,7 @@ export default class IntroSection
         this.objects.add({
             base: this.resources.items.intro0Base.scene,
             collision: this.resources.items.intro0Collision.scene,
-            offset: new THREE.Vector3(0, 0.4, 0),
+            offset: new THREE.Vector3(0, 0, 0),
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             mass: 1.5,
@@ -238,7 +238,7 @@ export default class IntroSection
         this.objects.add({
             base: this.resources.items.intro2Base.scene,
             collision: this.resources.items.intro22Collision.scene,
-            offset: new THREE.Vector3(2, 0.6, 0),
+            offset: new THREE.Vector3(2, 0, 0),
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
             duplicated: true,
@@ -248,7 +248,7 @@ export default class IntroSection
         this.objects.add({
             base: this.resources.items.intro3Base.scene,
             collision: this.resources.items.intro3Collision.scene,
-            offset: new THREE.Vector3(1, 0.8, 0),
+            offset: new THREE.Vector3(1, 0, 0),
             rotation: new THREE.Euler(0, 0, 0),
             duplicated: true,
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
