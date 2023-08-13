@@ -32,29 +32,53 @@ import introInstructionsOtherSource from '../models/intro/instructions/other.png
 import introArrowKeyBaseSource from '../models/intro/arrowKey/base.glb'
 import introArrowKeyCollisionSource from '../models/intro/arrowKey/collision.glb'
 
-import introBBaseSource from '../models/intro/b/base.glb'
-import introBCollisionSource from '../models/intro/b/collision.glb'
+import introSBaseSource from '../models/alphabet/s/base.glb'
+import introSCollisionSource from '../models/alphabet/s/collision.glb'
 
-import introRBaseSource from '../models/intro/r/base.glb'
-import introRCollisionSource from '../models/intro/r/collision.glb'
+import introCBaseSource from '../models/alphabet/c/base.glb'
+import introCCollisionSource from '../models/alphabet/c/collision.glb'
 
-import introUBaseSource from '../models/intro/u/base.glb'
-import introUCollisionSource from '../models/intro/u/collision.glb'
+import introABaseSource from '../models/alphabet/a/base.glb'
+import introACollisionSource from '../models/alphabet/a/collision.glb'
 
-import introNBaseSource from '../models/intro/n/base.glb'
-import introNCollisionSource from '../models/intro/n/collision.glb'
+import introLBaseSource from '../models/alphabet/l/base.glb'
+import introLCollisionSource from '../models/alphabet/l/collision.glb'
 
-import introOBaseSource from '../models/intro/o/base.glb'
-import introOCollisionSource from '../models/intro/o/collision.glb'
+import introEBaseSource from '../models/alphabet/e/base.glb'
+import introECollisionSource from '../models/alphabet/e/collision.glb'
 
-import introSBaseSource from '../models/intro/s/base.glb'
-import introSCollisionSource from '../models/intro/s/collision.glb'
+import intro2BaseSource from '../models/alphabet/2/base.glb'
+import intro2CollisionSource from '../models/alphabet/2/collision.glb'
 
-import introIBaseSource from '../models/intro/i/base.glb'
-import introICollisionSource from '../models/intro/i/collision.glb'
+import intro0BaseSource from '../models/alphabet/0/base.glb'
+import intro0CollisionSource from '../models/alphabet/0/collision.glb'
 
-import introMBaseSource from '../models/intro/m/base.glb'
-import introMCollisionSource from '../models/intro/m/collision.glb'
+import intro3BaseSource from '../models/alphabet/3/base.glb'
+import intro3CollisionSource from '../models/alphabet/3/collision.glb'
+
+// import introBBaseSource from '../models/intro/b/base.glb'
+// import introBCollisionSource from '../models/intro/b/collision.glb'
+
+// import introRBaseSource from '../models/intro/r/base.glb'
+// import introRCollisionSource from '../models/intro/r/collision.glb'
+
+// import introUBaseSource from '../models/intro/u/base.glb'
+// import introUCollisionSource from '../models/intro/u/collision.glb'
+
+// import introNBaseSource from '../models/intro/n/base.glb'
+// import introNCollisionSource from '../models/intro/n/collision.glb'
+
+// import introOBaseSource from '../models/intro/o/base.glb'
+// import introOCollisionSource from '../models/intro/o/collision.glb'
+
+// import introSBaseSource from '../models/intro/s/base.glb'
+// import introSCollisionSource from '../models/intro/s/collision.glb'
+
+// import introIBaseSource from '../models/intro/i/base.glb'
+// import introICollisionSource from '../models/intro/i/collision.glb'
+
+// import introMBaseSource from '../models/intro/m/base.glb'
+// import introMCollisionSource from '../models/intro/m/collision.glb'
 
 import introCreativeBaseSource from '../models/intro/creative/base.glb'
 import introCreativeCollisionSource from '../models/intro/creative/collision.glb'
@@ -211,6 +235,12 @@ import wig4Source from '../models/wigs/wig4.glb'
 // import eggBaseSource from '../models/egg/base.glb'
 // import eggCollisionSource from '../models/egg/collision.glb'
 
+// server
+import serverBaseSource from '../models/server/base.glb';
+import serverPlaneSource from '../models/server/plane.glb';
+import serverPlaneSource2 from '../models/server/plane2.glb';
+import serverCollisionSource from '../models/server/collision.glb';
+
 export default class Resources extends EventEmitter
 {
     constructor()
@@ -250,29 +280,55 @@ export default class Resources extends EventEmitter
             { name: 'introArrowKeyBase', source: introArrowKeyBaseSource },
             { name: 'introArrowKeyCollision', source: introArrowKeyCollisionSource },
 
-            { name: 'introBBase', source: introBBaseSource },
-            { name: 'introBCollision', source: introBCollisionSource },
-
-            { name: 'introRBase', source: introRBaseSource },
-            { name: 'introRCollision', source: introRCollisionSource },
-
-            { name: 'introUBase', source: introUBaseSource },
-            { name: 'introUCollision', source: introUCollisionSource },
-
-            { name: 'introNBase', source: introNBaseSource },
-            { name: 'introNCollision', source: introNCollisionSource },
-
-            { name: 'introOBase', source: introOBaseSource },
-            { name: 'introOCollision', source: introOCollisionSource },
-
             { name: 'introSBase', source: introSBaseSource },
             { name: 'introSCollision', source: introSCollisionSource },
 
-            { name: 'introIBase', source: introIBaseSource },
-            { name: 'introICollision', source: introICollisionSource },
+            { name: 'introCBase', source: introCBaseSource },
+            { name: 'introCCollision', source: introCCollisionSource },
 
-            { name: 'introMBase', source: introMBaseSource },
-            { name: 'introMCollision', source: introMCollisionSource },
+            { name: 'introABase', source: introABaseSource },
+            { name: 'introACollision', source: introACollisionSource },
+
+            { name: 'introLBase', source: introLBaseSource },
+            { name: 'introLCollision', source: introLCollisionSource },
+
+            { name: 'introEBase', source: introEBaseSource },
+            { name: 'introECollision', source: introECollisionSource },
+
+            { name: 'intro2Base', source: intro2BaseSource },
+            { name: 'intro2Collision', source: intro2CollisionSource },
+            { name: 'intro22Base', source: intro2BaseSource },
+            { name: 'intro22Collision', source: intro2CollisionSource },
+
+            { name: 'intro0Base', source: intro0BaseSource },
+            { name: 'intro0Collision', source: intro0CollisionSource },
+
+            { name: 'intro3Base', source: intro3BaseSource },
+            { name: 'intro3Collision', source: intro3CollisionSource },
+
+            // { name: 'introBBase', source: introBBaseSource },
+            // { name: 'introBCollision', source: introBCollisionSource },
+
+            // { name: 'introRBase', source: introRBaseSource },
+            // { name: 'introRCollision', source: introRCollisionSource },
+
+            // { name: 'introUBase', source: introUBaseSource },
+            // { name: 'introUCollision', source: introUCollisionSource },
+
+            // { name: 'introNBase', source: introNBaseSource },
+            // { name: 'introNCollision', source: introNCollisionSource },
+
+            // { name: 'introOBase', source: introOBaseSource },
+            // { name: 'introOCollision', source: introOCollisionSource },
+
+            // { name: 'introSBase', source: introSBaseSource },
+            // { name: 'introSCollision', source: introSCollisionSource },
+
+            // { name: 'introIBase', source: introIBaseSource },
+            // { name: 'introICollision', source: introICollisionSource },
+
+            // { name: 'introMBase', source: introMBaseSource },
+            // { name: 'introMCollision', source: introMCollisionSource },
 
             { name: 'introCreativeBase', source: introCreativeBaseSource },
             { name: 'introCreativeCollision', source: introCreativeCollisionSource },
@@ -428,6 +484,13 @@ export default class Resources extends EventEmitter
             // // Egg
             // { name: 'eggBase', source: eggBaseSource },
             // { name: 'eggCollision', source: eggCollisionSource },
+
+            // server
+            { name: 'serverBase', source: serverBaseSource },
+            { name: 'serverPlane', source: serverPlaneSource },
+            { name: 'serverPlane2', source: serverPlaneSource2 },
+            { name: 'serverCollision', source: serverCollisionSource },
+
         ])
 
         this.loader.on('fileEnd', (_resource, _data) =>
