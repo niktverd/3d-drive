@@ -44,6 +44,13 @@ import projectsKepplerSlideASources from '../../../models/projects/keppler/slide
 import projectsKepplerSlideBSources from '../../../models/projects/keppler/slideB.jpg'
 import projectsKepplerSlideCSources from '../../../models/projects/keppler/slideC.jpg'
 
+import projectsDatalensSlideASources from '../../../models/projects/datalens/slideA.png'
+import projectsDatalensSlideBSources from '../../../models/projects/datalens/slideB.png'
+import projectsDatalensSlideCSources from '../../../models/projects/datalens/slideC.png'
+
+import projectsJokeSlideASources from '../../../models/projects/joke/slideA.png'
+import projectsJokeSlideBSources from '../../../models/projects/joke/slideB.png'
+
 export default class ProjectsSection
 {
     constructor(_options)
@@ -112,217 +119,217 @@ export default class ProjectsSection
     setList()
     {
         this.list = [
-            {
-                name: 'Three.js Journey',
-                imageSources:
-                [
-                    projectsThreejsJourneySlideASources,
-                    projectsThreejsJourneySlideBSources,
-                    projectsThreejsJourneySlideCSources,
-                    projectsThreejsJourneySlideDSources
-                ],
-                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
-                link:
-                {
-                    href: 'https://threejs-journey.com?c=p3',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'fwa', x: 3.95, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Madbox',
-                imageSources:
-                [
-                    projectsMadboxSlideASources,
-                    projectsMadboxSlideBSources,
-                    projectsMadboxSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsMadboxFloorTexture,
-                link:
-                {
-                    href: 'https://madbox.io',
-                    x: - 4.8,
-                    y: - 4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Scout',
-                imageSources:
-                [
-                    projectsScoutSlideASources,
-                    projectsScoutSlideBSources,
-                    projectsScoutSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsScoutFloorTexture,
-                link:
-                {
-                    href: 'https://fromscout.com',
-                    x: - 4.8,
-                    y: - 2,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                ]
-            },
-            {
-                name: 'Chartogne Taillet',
-                imageSources:
-                [
-                    projectsChartogneSlideASources,
-                    projectsChartogneSlideBSources,
-                    projectsChartogneSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsChartogneFloorTexture,
-                link:
-                {
-                    href: 'https://chartogne-taillet.com',
-                    x: - 4.8,
-                    y: - 3.3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Zenly',
-                imageSources:
-                [
-                    projectsZenlySlideASources,
-                    projectsZenlySlideBSources,
-                    projectsZenlySlideCSources
-                ],
-                floorTexture: this.resources.items.projectsZenlyFloorTexture,
-                link:
-                {
-                    href: 'https://zen.ly',
-                    x: - 4.8,
-                    y: - 4.2,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'priorHoldings',
-                imageSources:
-                [
-                    projectsPriorHoldingsSlideASources,
-                    projectsPriorHoldingsSlideBSources,
-                    projectsPriorHoldingsSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
-                link:
-                {
-                    href: 'https://prior.co.jp/discover/',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'orano',
-                imageSources:
-                [
-                    projectsOranoSlideASources,
-                    projectsOranoSlideBSources,
-                    projectsOranoSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsOranoFloorTexture,
-                link:
-                {
-                    href: 'https://orano.imm-g-prod.com/experience/innovation/en',
-                    x: - 4.8,
-                    y: - 3.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'citrixRedbull',
-                imageSources:
-                [
-                    projectsCitrixRedbullSlideASources,
-                    projectsCitrixRedbullSlideBSources,
-                    projectsCitrixRedbullSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
-                link:
-                {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
-                    x: - 4.8,
-                    y: - 4.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
+            // {
+            //     name: 'Three.js Journey',
+            //     imageSources:
+            //     [
+            //         projectsThreejsJourneySlideASources,
+            //         projectsThreejsJourneySlideBSources,
+            //         projectsThreejsJourneySlideCSources,
+            //         projectsThreejsJourneySlideDSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://threejs-journey.com?c=p3',
+            //         x: - 4.8,
+            //         y: - 3,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'fwa', x: 3.95, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'Madbox',
+            //     imageSources:
+            //     [
+            //         projectsMadboxSlideASources,
+            //         projectsMadboxSlideBSources,
+            //         projectsMadboxSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsMadboxFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://madbox.io',
+            //         x: - 4.8,
+            //         y: - 4,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'Scout',
+            //     imageSources:
+            //     [
+            //         projectsScoutSlideASources,
+            //         projectsScoutSlideBSources,
+            //         projectsScoutSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsScoutFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://fromscout.com',
+            //         x: - 4.8,
+            //         y: - 2,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //     ]
+            // },
+            // {
+            //     name: 'Chartogne Taillet',
+            //     imageSources:
+            //     [
+            //         projectsChartogneSlideASources,
+            //         projectsChartogneSlideBSources,
+            //         projectsChartogneSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsChartogneFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://chartogne-taillet.com',
+            //         x: - 4.8,
+            //         y: - 3.3,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'Zenly',
+            //     imageSources:
+            //     [
+            //         projectsZenlySlideASources,
+            //         projectsZenlySlideBSources,
+            //         projectsZenlySlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsZenlyFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://zen.ly',
+            //         x: - 4.8,
+            //         y: - 4.2,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'priorHoldings',
+            //     imageSources:
+            //     [
+            //         projectsPriorHoldingsSlideASources,
+            //         projectsPriorHoldingsSlideBSources,
+            //         projectsPriorHoldingsSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://prior.co.jp/discover/',
+            //         x: - 4.8,
+            //         y: - 3,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'orano',
+            //     imageSources:
+            //     [
+            //         projectsOranoSlideASources,
+            //         projectsOranoSlideBSources,
+            //         projectsOranoSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsOranoFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://orano.imm-g-prod.com/experience/innovation/en',
+            //         x: - 4.8,
+            //         y: - 3.4,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'citrixRedbull',
+            //     imageSources:
+            //     [
+            //         projectsCitrixRedbullSlideASources,
+            //         projectsCitrixRedbullSlideBSources,
+            //         projectsCitrixRedbullSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://thenewmobileworkforce.imm-g-prod.com/',
+            //         x: - 4.8,
+            //         y: - 4.4,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
             // {
             //     name: 'gleecChat',
             //     imageSources:
@@ -351,19 +358,63 @@ export default class ProjectsSection
             //         { type: 'cssda', x: 7.2, y: 4.15 }
             //     ]
             // },
+            // {
+            //     name: 'keppler',
+            //     imageSources:
+            //     [
+            //         projectsKepplerSlideASources,
+            //         projectsKepplerSlideBSources,
+            //         projectsKepplerSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsKepplerFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://brunosimon.github.io/keppler/',
+            //         x: 2.75,
+            //         y: - 1.1,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions: []
+            // },
             {
-                name: 'keppler',
+                name: 'datalens',
                 imageSources:
                 [
-                    projectsKepplerSlideASources,
-                    projectsKepplerSlideBSources,
-                    projectsKepplerSlideCSources
+                    projectsDatalensSlideASources,
+                    projectsDatalensSlideBSources,
+                    projectsDatalensSlideCSources
                 ],
-                floorTexture: this.resources.items.projectsKepplerFloorTexture,
+                floorTexture: this.resources.items.projectsDatalensFloorTexture,
                 link:
                 {
-                    href: 'https://brunosimon.github.io/keppler/',
-                    x: 2.75,
+                    href: 'https://cloud.yandex.com/en/services/datalens',
+                    x: -4.8,
+                    y: - 4,
+                    halfExtents:
+                    {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                },
+                distinctions: []
+            },
+            {
+                name: 'joke',
+                imageSources:
+                [
+                    projectsJokeSlideASources,
+                    projectsJokeSlideBSources,
+                ],
+                floorTexture: this.resources.items.projectsJokeFloorTexture,
+                link:
+                {
+                    href: 'https://t.me/AlexeyW100',
+                    
+                    x: 5.75,
                     y: - 1.1,
                     halfExtents:
                     {
@@ -372,7 +423,7 @@ export default class ProjectsSection
                     }
                 },
                 distinctions: []
-            }
+            },
         ]
     }
 

@@ -130,6 +130,8 @@ import projectsPriorHoldingsFloorSource from '../models/projects/priorHoldings/f
 import projectsOranoFloorSource from '../models/projects/orano/floorTexture.png'
 // import projectsGleecChatFloorSource from '../models/projects/gleecChat/floorTexture.png'
 import projectsKepplerFloorSource from '../models/projects/keppler/floorTexture.png'
+import projectsDataLensFloorSource from '../models/projects/datalens/floorTexture.png'
+import projectsJokeFloorSource from '../models/projects/joke/floorTexture.png'
 
 // Information
 import informationStaticBaseSource from '../models/information/static/base.glb'
@@ -380,6 +382,8 @@ export default class Resources extends EventEmitter
             { name: 'projectsOranoFloor', source: projectsOranoFloorSource, type: 'texture' },
             // { name: 'projectsGleecChatFloor', source: projectsGleecChatFloorSource, type: 'texture' },
             { name: 'projectsKepplerFloor', source: projectsKepplerFloorSource, type: 'texture' },
+            { name: 'projectsDatalensFloor', source: projectsDataLensFloorSource, type: 'texture' },
+            { name: 'projectsJokeFloor', source: projectsJokeFloorSource, type: 'texture' },
 
             // Information
             { name: 'informationStaticBase', source: informationStaticBaseSource },
