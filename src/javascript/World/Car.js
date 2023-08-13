@@ -35,8 +35,8 @@ export default class Car
         this.setMovement()
         this.setChassis()
         this.setAntena()
-        this.setBackLights()
-        this.setWheels()
+        // this.setBackLights()
+        // this.setWheels()
         this.setTransformControls()
         this.setShootingBall()
         this.setKlaxon()
@@ -147,7 +147,7 @@ export default class Car
         // this.chassis.object.add(this.antena.bunnyEarRight)
 
         this.antena.speed = new THREE.Vector2()
-        this.antena.absolutePosition = new THREE.Vector2()
+        this.antena.absolutePosition = new THREE.Vector2(1, 1)
         this.antena.localPosition = new THREE.Vector2()
 
         // Time tick
