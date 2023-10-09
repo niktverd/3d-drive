@@ -296,7 +296,7 @@ export default class IntroSection
             offset: new THREE.Vector3(position.x, position.y, 0),
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
-            mass: 50.5,
+            mass: 30.5,
             soundName: 'brick',
             duplicated: true,
         })
